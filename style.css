@@ -25,6 +25,45 @@ body {
     align-items: center;
   }
 
+  .navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 1030;
+}
+
+
+
+.navbar-nav .nav-link {
+color: #ffffff !important;
+position: relative;
+transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+content: '';
+position: absolute;
+width: 0%;
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: var(--verde-claro);
+transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+color: var(--verde-claro) !important;
+}
+
+.navbar-nav .nav-link:hover::after {
+width: 100%;
+}
+
+
+
+body {
+  padding-top: 10px; /* Compensa a altura da navbar fixa */
+}
+
+
   /*serviços*/
   
   #servicos h2 {
