@@ -45,15 +45,17 @@ body {
     transform: translateY(-5px);
   }
   
-  /*agendamento*/
+  /*atendimento*/
 
-  #agendamento {
-    background-color: var(--branco);
-  }
-  
-  #agendamento h2 {
-    color: var(--verde-escuro);
-  }
+  #etapas h2 {
+  color: var(--verde-escuro);
+}
+
+#etapas .border:hover {
+  background-color: var(--cinza-claro);
+  transition: background-color 0.3s ease;
+}
+
   
   form .form-control:focus {
     border-color: var(--verde-claro);
@@ -126,8 +128,9 @@ body {
   }
   
 /*radapé*/
-  footer a:hover {
-    text-decoration: underline;
-    color: var(--verde-claro);
-  }
+ footer a:hover {
+  color: var(--verde-claro);
+  text-decoration: none;
+}
+
   
