@@ -125,3 +125,9 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(168, 213, 186, 0.5);
   }
   
+/*radapé*/
+  footer a:hover {
+    text-decoration: underline;
+    color: var(--verde-claro);
+  }
+  
