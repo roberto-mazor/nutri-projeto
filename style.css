@@ -95,7 +95,7 @@ body {
   
 
   /*blog*/
-  
+
   #blog h2 {
     color: var(--verde-escuro);
   }
@@ -111,4 +111,17 @@ body {
   }
   
   /*contatos*/
+  
+  #contato {
+    background-color: var(--cinza-claro);
+  }
+  
+  #contato h2 {
+    color: var(--verde-escuro);
+  }
+  
+  #contato .form-control:focus {
+    border-color: var(--verde-claro);
+    box-shadow: 0 0 0 0.2rem rgba(168, 213, 186, 0.5);
+  }
   
