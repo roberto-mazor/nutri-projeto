@@ -95,6 +95,20 @@ body {
   
 
   /*blog*/
-
+  
+  #blog h2 {
+    color: var(--verde-escuro);
+  }
+  
+  #blog .card-title {
+    color: var(--verde-escuro);
+    font-weight: bold;
+  }
+  
+  #blog .card-img-top {
+    object-fit: cover;
+    height: 250px;
+  }
+  
   /*contatos*/
   
