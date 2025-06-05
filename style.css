@@ -57,6 +57,10 @@ color: var(--verde-claro) !important;
 width: 100%;
 }
 
+.navbar-nav .nav-link.active {
+  color: var(--verde-claro) !important;
+  font-weight: bold;
+  }
 
 
 body {
@@ -168,5 +172,8 @@ body {
   color: var(--verde-claro);
   text-decoration: none;
 }
+
+  
+
 
   
