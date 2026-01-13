@@ -45,7 +45,7 @@ Este projeto foi construído com as melhores práticas de desenvolvimento web fr
 
 ```bash
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-
+```
 ---
 
 ## 🤝 Contato e Autor
