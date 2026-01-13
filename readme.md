@@ -35,6 +35,7 @@ Este projeto foi construído com as melhores práticas de desenvolvimento web fr
 ├── app.js              # Lógica de componentes e menu
 ├── img/                # Ativos visuais (alimento, prato, dieta)
 └── README.md           # Documentação
+```
 
 ---
 
